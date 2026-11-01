@@ -1,0 +1,25 @@
+.ChessBoard {
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    grid-template-rows: repeat(8 , 1fr);
+    width: 480px;
+    height: 480px;
+
+    border: 5px solid #333;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.Selectedblack {
+    background-color: #7fa650;
+}
+
+.Selectedwhite {
+    background-color: #a9c46c;
+}
